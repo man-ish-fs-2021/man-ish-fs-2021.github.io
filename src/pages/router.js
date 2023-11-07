@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
+import { CommonFooterAndHome } from "../components";
 
 const Router = () => {
   return (
@@ -11,9 +12,11 @@ const Router = () => {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route exact path="/about">
-        <About />
-      </Route>
+      <CommonFooterAndHome>
+        <Route exact path="/about">
+          <About />
+        </Route>
+      </CommonFooterAndHome>
     </Switch>
   );
 };

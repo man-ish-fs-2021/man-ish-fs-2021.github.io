@@ -1,0 +1,11 @@
+.common-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/denimBg.webp");
+  position: relative;
+}
+.home-icon {
+  position: absolute;
+  right: 7%;
+  top: 10%;
+}

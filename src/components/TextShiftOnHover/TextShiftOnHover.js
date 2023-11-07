@@ -9,7 +9,12 @@ import "./TextShiftOnHover.css";
 // on hover show another content.
 // useEffect for the event listener.
 
-const TextShiftOnHover = ({ main, after, color = "white" }) => {
+const TextShiftOnHover = ({
+  main,
+  after,
+  color = "white",
+  fontSize = "4rem",
+}) => {
   //   const h1Ref = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
   const handleMouseEnter = () => {
@@ -23,6 +28,9 @@ const TextShiftOnHover = ({ main, after, color = "white" }) => {
       className="on-hover-text"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      style={{
+        fontSize,
+      }}
     >
       <h1 style={{ color }}>{isHovered ? after : main}</h1>
     </div>
