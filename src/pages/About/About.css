@@ -18,8 +18,7 @@
   align-self: center;
   margin-bottom: 100px;
   opacity: 0;
-  /* transform: scaleX(0); */
-  /* transform-origin: bottom; */
+
   animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s
     forwards;
   animation-delay: 0.4s;

@@ -32,7 +32,7 @@ const Home = () => {
           main="Manish"
           color="#76C3C5"
           after={
-            <AnchorStyled href="/" hoverColor="#76C3C5">
+            <AnchorStyled href="/contact" hoverColor="#76C3C5">
               Contact
             </AnchorStyled>
           }

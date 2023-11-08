@@ -1,28 +1,17 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./About.css";
-import AnchorStyled from "../../components/AnchorStyled/AnchorStyled";
+import { useIsIntersectingAnimation } from "../../hooks";
+import { AnchorStyled } from "../../components";
 import Resume from "../../assets/Resume-Manish Chandra.pdf";
 
 const About = () => {
-  const [isIntersecting, setIsIntersecting] = useState(false);
   const styleSectionRef = useRef(null);
   const aboutSectionRef = useRef(null);
-  useEffect(() => {
-    const observer = new IntersectionObserver((entires) => {
-      const curr = entires[0];
-      setIsIntersecting(curr.isIntersecting);
-    });
-    observer.observe(styleSectionRef.current);
-    return () => observer.disconnect();
-  }, []);
-  useEffect(() => {
-    if (!styleSectionRef.current) return;
-    console.log({ ref: styleSectionRef.current });
-    if (isIntersecting) {
-      styleSectionRef.current.classList.add("fade-in-about");
-      aboutSectionRef.current.classList.add("fade-in-about");
-    }
-  }, [isIntersecting]);
+  useIsIntersectingAnimation({
+    mainRef: styleSectionRef,
+    allRefs: [styleSectionRef, aboutSectionRef],
+    classToAdd: "fade-in-about",
+  });
   return (
     <div className="about-container">
       <div className="about-heading">
@@ -64,6 +53,10 @@ const About = () => {
             <li>
               Experience with state management using Redux, Context API and
               Apollo Client GraphQL
+            </li>
+            <li>Understanding of design systems within React.</li>
+            <li>
+              Understanding of UI libraries and UX flows through collaborations
             </li>
             <li>
               Knowledge of security measures like RBAC, fine grain permission

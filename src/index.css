@@ -18,6 +18,15 @@ code {
   animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s
     forwards;
 }
+.hr-line-70 {
+  width: 70%;
+  border: 1px solid white;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
+  animation-delay: 0.4s;
+}
+
 @keyframes fade-in-from-bottom {
   from {
     transform: translateY(20px);
@@ -47,5 +56,21 @@ code {
 }
 .page-inner-container > div {
   width: 70%;
-  text-align: justify;
+  /* text-align: justify; */
+}
+.arrow {
+  width: 100px;
+  height: 100px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  position: absolute;
+  bottom: -15px;
+  margin: 0 auto;
+  animation: ArrowbobbingAbsolute 2s linear infinite;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+.down {
+  transform: scaleY(cos(45deg)) rotate(45deg);
 }
