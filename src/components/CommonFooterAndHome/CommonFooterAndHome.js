@@ -17,7 +17,7 @@ const CommonFooterAndHome = ({ children }) => {
           fontSize="12px"
         />
       </div>
-      {children}
+      <div className="page-content">{children}</div>
       <Footer />
     </div>
   );

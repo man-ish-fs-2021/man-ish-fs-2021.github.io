@@ -4,8 +4,16 @@
   background-image: url("../../assets/denimBg.webp");
   position: relative;
 }
+.page-content {
+  height: calc(100% - 60px);
+  overflow: scroll;
+}
 .home-icon {
-  position: absolute;
-  right: 7%;
+  position: fixed;
   top: 10%;
+  /* height: 13%; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  right: 10%;
 }

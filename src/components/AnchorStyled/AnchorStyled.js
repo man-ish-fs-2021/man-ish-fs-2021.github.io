@@ -9,9 +9,15 @@ const StyledA = styled.a`
   }
 `;
 
-const AnchorStyled = ({ href, color, children, hoverColor = "white" }) => {
+const AnchorStyled = ({
+  href,
+  color,
+  children,
+  hoverColor = "white",
+  ...props
+}) => {
   return (
-    <StyledA href={href} color={color} hoverColor={hoverColor}>
+    <StyledA href={href} color={color} hoverColor={hoverColor} {...props}>
       {children}
     </StyledA>
   );
