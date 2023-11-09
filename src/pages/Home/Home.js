@@ -23,7 +23,7 @@ const Home = () => {
           main="I am"
           color="#76C3C5"
           after={
-            <AnchorStyled href="/" hoverColor="#76C3C5">
+            <AnchorStyled href="/work" hoverColor="#76C3C5">
               Work
             </AnchorStyled>
           }

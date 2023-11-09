@@ -15,7 +15,7 @@ code {
     monospace;
 }
 .fade-in-about {
-  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s
+  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.9s
     forwards;
 }
 .hr-line-70 {

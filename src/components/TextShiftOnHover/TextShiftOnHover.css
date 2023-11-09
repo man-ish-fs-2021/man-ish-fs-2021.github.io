@@ -4,6 +4,7 @@
   color: white;
   margin: 0;
   transform: translateX(0);
+  width: max-content;
 }
 .on-hover-text h1 {
   text-shadow: 0 0 50px #000;
