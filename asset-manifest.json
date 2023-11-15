@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/man-ish-fs-2021.github.io/static/css/main.1e1673bf.css",
-    "main.js": "/man-ish-fs-2021.github.io/static/js/main.9cdcc304.js",
-    "static/js/787.8f004562.chunk.js": "/man-ish-fs-2021.github.io/static/js/787.8f004562.chunk.js",
-    "static/media/Resume-Manish Chandra.pdf": "/man-ish-fs-2021.github.io/static/media/Resume-Manish Chandra.7853b7146864f5340fa2.pdf",
-    "static/media/dp.JPG": "/man-ish-fs-2021.github.io/static/media/dp.8c36de43936f6e48f588.JPG",
-    "static/media/denimBg.webp": "/man-ish-fs-2021.github.io/static/media/denimBg.bb77e49ff83871a78f30.webp",
-    "index.html": "/man-ish-fs-2021.github.io/index.html",
-    "static/media/github.svg": "/man-ish-fs-2021.github.io/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
-    "static/media/file-text.svg": "/man-ish-fs-2021.github.io/static/media/file-text.cb094fae8eba3fdd4b841eca5f2c4d44.svg",
-    "static/media/linkedin.svg": "/man-ish-fs-2021.github.io/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
-    "static/media/external-link.svg": "/man-ish-fs-2021.github.io/static/media/external-link.90577cce48ecfddde9064420d52d9f5f.svg",
-    "static/media/mail.svg": "/man-ish-fs-2021.github.io/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
-    "main.1e1673bf.css.map": "/man-ish-fs-2021.github.io/static/css/main.1e1673bf.css.map",
-    "main.9cdcc304.js.map": "/man-ish-fs-2021.github.io/static/js/main.9cdcc304.js.map",
-    "787.8f004562.chunk.js.map": "/man-ish-fs-2021.github.io/static/js/787.8f004562.chunk.js.map"
+    "main.css": "/static/css/main.9b6ec00e.css",
+    "main.js": "/static/js/main.40201500.js",
+    "static/js/787.8f004562.chunk.js": "/static/js/787.8f004562.chunk.js",
+    "static/media/Resume-Manish Chandra.pdf": "/static/media/Resume-Manish Chandra.7853b7146864f5340fa2.pdf",
+    "static/media/dp.JPG": "/static/media/dp.8c36de43936f6e48f588.JPG",
+    "static/media/denimBg.webp": "/static/media/denimBg.bb77e49ff83871a78f30.webp",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
+    "static/media/file-text.svg": "/static/media/file-text.cb094fae8eba3fdd4b841eca5f2c4d44.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
+    "static/media/external-link.svg": "/static/media/external-link.90577cce48ecfddde9064420d52d9f5f.svg",
+    "static/media/mail.svg": "/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
+    "main.9b6ec00e.css.map": "/static/css/main.9b6ec00e.css.map",
+    "main.40201500.js.map": "/static/js/main.40201500.js.map",
+    "787.8f004562.chunk.js.map": "/static/js/787.8f004562.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e1673bf.css",
-    "static/js/main.9cdcc304.js"
+    "static/css/main.9b6ec00e.css",
+    "static/js/main.40201500.js"
   ]
 }
